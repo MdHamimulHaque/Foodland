@@ -1,0 +1,383 @@
+/* font-family: 'Akaya Telivigala', cursive;
+font-family: 'Ballet', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; 
+font-family: 'Allura', cursive;
+font-family: 'Tangerine', cursive;*/
+html{
+	scroll-behavior: smooth;
+	-webkit-scroll-behavior: smooth;
+}
+#about{
+	padding-top: 100px;
+}
+#services{
+	padding-top: 100px;
+}
+#booking{
+	padding-top: 100px;
+}#blog{
+	padding-top: 100px;
+}#contact{
+	padding-top: 100px;
+}#menus{
+	padding-top: 100px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+h1,h2,h4,h5,h6,p,{
+	font-family: 'Raleway', sans-serif;
+}
+
+h3{
+ font-family: 'Allura', cursive;
+ 	color: #FA4A0E
+}
+h1{
+	letter-spacing:8px
+}
+
+
+.logo{
+	height: 70px;
+	width: 200px;
+	
+}
+.logo img{
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+/* start button section */
+.button a{
+	border:1px solid #FA4A0E
+}
+
+.button a{
+	color: #FA4A0E
+}
+
+.button a:hover{
+	background-color: #FA4A0E !important;
+	border:1px solid #FA4A0E
+}
+
+.top_sector button{
+	background:#FA4A0E;
+}
+.top_sector .logo{
+	height: 70px;
+	width: 200px;
+	margin: 0 auto;
+	padding-top:10px
+}
+.top_sector .logo img{
+	height: 100%;
+	width: 100%;
+}
+
+
+.restaurant .button a{
+	background: #FA4A0E;
+	color: #fff;
+}
+.restaurant .button a:hover{
+	background: #fff !important;
+	color: #FA4A0E;
+}
+
+
+
+/* start top sector */
+.top_sector{
+	background-image: url('img/top_cover.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 550px;
+	width: 100%
+}
+.top_sector li a{
+	color:#FA4A0E !important; 
+}
+
+/* start food_drink sector */
+.food_drings_img{
+	height: 400px;
+	width: 100%
+}
+.food_drings_img img{
+	height: 100%;
+	width: 100%;
+	
+}
+/* start restaurent sector */
+
+.restaurant_video iframe{
+	width: 100%;
+	height: 500px;
+}
+
+.restaurant_video{
+	height: 500px;
+	width: 100%;
+	position: absolute;
+
+}
+
+
+.restaurant_img{
+	width: 100%;
+	height: 200px;
+	position: relative;
+	top:10px;
+	left:0px
+	
+}
+.restaurant_img .box1{
+	width: 180px;
+	height: 150px;
+	float: left;
+	padding-right:20px;
+	 
+}
+.restaurant_img .box1::before{
+	content: "Restaurent View";
+	position: relative;
+	top: 60%;
+	left: 10%;
+	color: #FA4A0E;
+	font-family: 'Tangerine', cursive;
+	font-size:20px;
+	font-weight: bold;
+	word-spacing:5px 
+}
+.restaurant_img .box1 img{
+	width: 100%;
+	height: 100%;
+}
+
+/* end restaurent sector */
+
+.servises{
+	height: 600px;
+	width: 100%;
+}
+
+.servises .services_multi_img{
+	height: 550px;
+	width: 50%;
+	float: left;
+	/* margin-top: 50px */
+}
+.servises .services_single_img{
+	height: 550px;
+	width: 50%;
+	float: left
+}
+.servises .services_multi_img .box1{
+	height: 200px;
+	width: 50%;
+	float: left;
+	
+}
+.servises .services_multi_img .box1 img{
+	height:100%;
+	width: 100%;
+}
+.servises .services_single_img .box1{
+	height: 500px;
+	width: 100%;
+}
+.servises .services_single_img .box1 img{
+	height: 500px;
+	width: 100%;
+}
+
+.book_table_1{
+	height:450px;
+	width: 100%;
+}
+.b_card_1 {
+    height: 380px;
+    width: 40%;
+    float: left;
+    margin-left:0;
+    margin-right: 5%;
+    margin-top: 50px;
+    -webkit-box-shadow: 1px 1px 9px 2px #C82333;
+    box-shadow: 1px 1px 9px 2px #C82333;
+}
+.b_card_2{
+	height:380px;
+	width: 40%;
+	float: left;
+	margin-left:0;
+	margin-right:5%;
+	margin-top: 50px;
+	-webkit-box-shadow: 1px 1px 9px 2px #218838;
+	box-shadow: 1px 1px 9px 2px #218838;
+}
+
+.book_table_2{
+	height:380px;
+	width: 100%;
+
+}
+.book_table_2 form{
+	color:  #FA4A0E;
+}
+.book_table_2 form button{
+	background: #FA4A0E;
+	color: #fff;
+	border: 1px solid #FA4A0E
+}
+.book_table_2 form button:hover{
+	background: #111;
+	color: #FA4A0E;
+	border: 1px solid #111
+}
+
+.top_item{
+	background: #FA4A0E ;
+}
+
+.item_img{
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
+	
+}
+.item_img img{
+	height: 100%;
+	width: 100%;
+	border-radius:100%;
+}
+
+
+.choose_your_fvrt_items h6{
+     color:#FA4A0E ;
+}
+
+.counter_box .icon{
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
+}
+.counter_box .icon img{
+	height: 100%;
+	width: 100%;
+}
+
+.OUR_S{
+	height: 700px;
+	width: 100%;
+    
+}
+
+/* .our_specialists{
+	background-image: url('img/chef111.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 450px;
+	width: 100%;
+	position: absolute;
+}
+.our_specialists h1{
+	color:#FA4A0E 
+}
+.os_top_img{
+	height: 450px;
+	width: 50%;
+}
+.os_bottom_img {
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	top: 85%;
+	left: 0
+}
+.os_bottom_img .os_bottom_img_box{
+	height: auto;
+	width: 20%;
+	display: flex;
+	justify-content: space-between
+}
+
+.os_bottom_img .os_bottom_img_box .img_card{
+	height: 250px;
+	width: 100%	
+}
+.os_bottom_img .os_bottom_img_box .img_card img{
+	height: 100%;
+	width: 100%	
+} */
+ 
+/*  .os_buttom_img .os_buttom_img_box img{
+	height: 100%;
+	width: 100%
+} */
+
+
+.our_specialists{
+	height: 800px;
+	width: 100%;
+
+}
+.our_specialists .top_part{
+	height: 450px;
+	width: 100%;
+	background-image: url('img/chef111.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.our_specialists .top_part h1{
+	padding-top:50px !important;
+	color:#FA4A0E !important;
+}
+
+ .our_specialists .bottom_part{
+	height: 500px;
+	width: 100%;
+	float: left;
+	position:absolute;
+	top: 300px;
+	left: 0px
+}
+.our_specialists .bottom_part .os_bottom_img_box{
+	height: 390px;
+	width: 20%;
+	float: left;
+	margin: 2.5%
+}
+.our_specialists .bottom_part .os_bottom_img_box .img_card{
+	height: 250px;
+}
+.our_specialists .bottom_part .os_bottom_img_box .img_card img{
+	height: 100%;
+	width: 100%
+}
+
+footer span a{
+	color: #FA4A0E !important;
+	text-decoration: none;
+}
+footer span a:hover{
+	color: #fff !important;
+}
+
+
+
+ 
